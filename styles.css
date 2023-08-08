@@ -85,3 +85,35 @@ width: 100px;
 border: 1px #3882f6;
 border-radius: 10px;
 }
+
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    
+    text-align: center;
+}
+
+.row-of-blue-divs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.box-blue{
+    border: 3px solid rgb(44, 44, 181);
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+.p-second{
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
