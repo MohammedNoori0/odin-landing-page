@@ -30,6 +30,7 @@ display: flex;
 
 ul{
     display: flex;
+    gap: 25px;
 }
 
 .navbar-left,.navbar-right{
@@ -69,6 +70,7 @@ margin-left: 150px;
 img{
     margin-bottom: 50px;
     margin-right: 130px;
+    border-radius: 30px;
 }
 
 .p-first{
