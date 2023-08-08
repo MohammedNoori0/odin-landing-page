@@ -140,5 +140,45 @@ h3{
     color: rgb(43, 39, 39);
     justify-content: end;
     margin-right: 20%;
+}
+.fourth-section{
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fourth-border{
+    border: 2px solid blue;
+    padding: 30px 150px;
+    border-radius: 5px;
+    margin-top: 40px;
+    background-color: rgb(58, 58, 255);
+}
+.fourth-alone{
+display: flex;
+align-items: center;
+justify-content: center;
+color: whitesmoke;
+margin-right: 465px;
+font-weight: 900;
+}
 
+.fourth-together{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    color: white;
+    font-weight:100;
+    font-weight: lighter;
+}
+
+.button2{
+    background-color: rgb(58, 58, 255);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
