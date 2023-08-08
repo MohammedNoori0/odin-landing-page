@@ -102,7 +102,7 @@ h2{
 }
 
 .box-blue{
-    border: 3px solid rgb(44, 44, 181);
+    border: 3px solid rgb(115, 115, 208);
     height: 180px;
     width: 180px;
     border-radius: 5px;
@@ -116,4 +116,29 @@ h2{
     text-align: center;
     font-size: 18px;
     color: #1f2937;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: column;
+}
+h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style:italic;
+    text-align: center;
+}
+
+#p-third{
+    display: flex;
+    font-size: 18px;
+    font-weight:600;
+    color: rgb(43, 39, 39);
+    justify-content: end;
+    margin-right: 20%;
+
 }
