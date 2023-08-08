@@ -46,12 +46,42 @@ h1{
 }
 .content{
     display: flex;
+    margin: 50px;
 }
 
-.content-left,.content-right{
+.content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+.content-left{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 50%;
+margin-left: 150px;
 
+
+}
+
+img{
+    margin-bottom: 50px;
+    margin-right: 130px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #e5e7eb;;
+
+}
+
+.sign-up-first-section{
+background-color: #3882f6;
+color: white;
+height: 30px;
+width: 100px;
+border: 1px #3882f6;
+border-radius: 10px;
 }
