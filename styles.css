@@ -182,3 +182,12 @@ font-weight: 900;
     border: 1px solid white;
     border-radius: 5px;
 }
+
+.footer{
+    background-color: #1F2937;
+    color:white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
