@@ -1,2 +1,1 @@
-# odin-landing-page
-Portfolio page
+# portfolio-page
