@@ -16,6 +16,22 @@ font-family: "roboto slab", serif;
 
 .first-section{
     background-color: #1F2937;
+    background: linear-gradient(-45deg, #e3592f, #e22a70, #23a6d5, #ab23d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+   
+      50% {
+          background-position: 100% 50%;
+      }
+   
+      100% {
+          background-position: 0% 50%;
+      }
+  }
 }
 #header-logo{
   font-size: 24px;
@@ -235,8 +251,23 @@ h3{
     padding: 30px 150px;
     border-radius: 5px;
     margin-top: 40px;
-    background-color: rgb(58, 58, 255);
     display: flex;
+    background: linear-gradient(-45deg, #e3592f, #e22a70, #23a6d5, #ab23d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+   
+      50% {
+          background-position: 100% 50%;
+      }
+   
+      100% {
+          background-position: 0% 50%;
+      }
+  }
     
 }
 .fourth-alone{
@@ -264,12 +295,12 @@ margin-top: 1%;
 
 /* CSS */
 .button2 {
-  background-color: #2174f0;
+  background-color: #fff;
   border-radius: 4px;
   border: 0;
   box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #000001;
   cursor: pointer;
   display: flex;
   font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -277,7 +308,7 @@ margin-top: 1%;
   font-weight: 800;
   line-height: 24px;
   margin: 25;
-  min-height: 36px;
+  min-height: 30px;
   min-width: 55px;
   padding: 16px 20px;
   position: relative;
@@ -306,9 +337,9 @@ margin-top: 1%;
 
 
 .footer{
-    background-color: #1F2937;
+    background-color: black;
     color:white;
-    height: 70px;
+    padding: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
