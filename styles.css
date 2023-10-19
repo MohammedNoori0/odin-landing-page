@@ -58,6 +58,8 @@ ul{
     width: 50%;
     justify-content: center;
     align-items: center;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 h1{
