@@ -113,7 +113,7 @@ margin-left: 150px;
     border-radius: 30px;
 }
 
-.p-first{
+p{
     font-size: 18px;
     color: #e5e7eb;;
 
@@ -359,4 +359,25 @@ font-weight: bolder;
   justify-content: space-between;
   margin: 5%;
   
+}
+
+.word3 {
+  animation: 3s anim-lineUp ease-in-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
