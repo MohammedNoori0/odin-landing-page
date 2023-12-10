@@ -389,5 +389,7 @@ font-weight: bolder;
 
 .top{
   --a: 0deg;
-    border-radius: 50px;
+    border-radius: 70px;
+    margin-left: 3%;
+    width: 500px;
 }
