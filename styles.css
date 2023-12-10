@@ -78,7 +78,7 @@ h1{
 }
 
 img {
-  --a: 7deg; /* control the angle of rotation (the smaller, the better) */
+  --a: 6deg; /* control the angle of rotation (the smaller, the better) */
  
   aspect-ratio: 1;
   border-radius: 20px;
