@@ -78,7 +78,7 @@ h1{
 }
 
 img {
-  --a: 8deg; /* control the angle of rotation (the smaller, the better) */
+  --a: 7deg; /* control the angle of rotation (the smaller, the better) */
  
   aspect-ratio: 1;
   border-radius: 20px;
@@ -89,17 +89,15 @@ img {
   transition: .4s;
   cursor: pointer;
 }
-.alt {
+img {
   --r: 1,1;
-  -webkit-mask: 
-    linear-gradient(45deg,#000c 40%,#000,#000c 60%)
-    0 100%/250% 250%;
+
 }
 img:hover {
   --i: -1;
   -webkit-mask-position: 0 0;
 }
-.alt:hover {
+img:hover {
   -webkit-mask-position: 100% 0;
 }
 
@@ -242,7 +240,8 @@ h3{
     font-weight:600;
     color: rgb(43, 39, 39);
     justify-content: end;
-    margin-right: 20%;
+    margin-right: 15%;
+    margin-top: 1.7;
 }
 .fourth-section{
     height: 200px;
@@ -385,4 +384,10 @@ font-weight: bolder;
     opacity: 1;
     transform: translateY(0%);
   }
+}
+
+
+.top{
+  --a: 0deg;
+    border-radius: 50px;
 }
