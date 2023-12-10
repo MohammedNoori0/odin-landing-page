@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial Black;
 }
 a {
     color: inherit;
@@ -127,7 +128,6 @@ p{
 
 
 .sign-up-first-section {
-  padding: 0.6em 2em;
   margin-top: 5%;
   width: 90px;
 height: 30px;
