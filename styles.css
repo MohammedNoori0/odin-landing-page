@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial Black;
+    font-color: black;
 }
 a {
     color: inherit;
@@ -17,7 +18,7 @@ font-family: "roboto slab", serif;
 
 .first-section{
     background-color: #1F2937;
-    background: linear-gradient(-45deg, #2023e2, #e22a70, #0b7aef, #ab23d5);
+    background: linear-gradient(-45deg, #ffffff, #5b5b5b, #000000, #000000);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     @keyframes gradient {
@@ -106,8 +107,8 @@ img:hover {
 display: flex;
 justify-content: center;
 flex-direction: column;
-width: 50%;
-margin-left: 150px;
+width: 55%;
+margin-left: 120px;
 
 
 }
@@ -259,7 +260,7 @@ h3{
     border-radius: 5px;
     margin-top: 40px;
     display: flex;
-    background: linear-gradient(-45deg, #e3592f, #e22a70, #23a6d5, #ab23d5);
+    background: linear-gradient(-45deg, #000000, #000000, #780c0c, #04266a);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     @keyframes gradient {
@@ -390,6 +391,12 @@ font-weight: bolder;
 .top{
   --a: 0deg;
     border-radius: 50px;
-    margin-left: 3%;
-    width: 500px;
+    margin-left: 30%;
+    width: 60%;
+}
+
+.top:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1;
 }
