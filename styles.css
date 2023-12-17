@@ -63,6 +63,16 @@ ul{
     font-weight: bolder;
     color: #f9faf8;
 }
+.header-link:hover {
+  color: red;
+}
+#header-logo:hover {
+  color: red;
+}
+.footer:hover {
+  color: red;
+}
+
 
 h1{
     font-size: 48px;
